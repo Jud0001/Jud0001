@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de arte digital de [Tu Nombre] - Descubre mi trabajo y contrata mis servicios como diseñadora digital.">
+    <title>[Tu Nombre] - Arte Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .intro h2 {
+            font-size: 2em;
+        }
+        .intro p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        .gallery img {
+            max-width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .contact {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            font-size: 2em;
+        }
+        .contact p {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        .contact form {
+            margin-top: 20px;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .contact form input[type="submit"] {
+            background-color: #ff6b6b;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer;
+            border: none;
+        }
+        footer {
+            background-color: #222;
+            color: #bbb;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>[Tu Nombre]</h1>
+    <nav>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<section class="intro" id="about">
+    <div class="container">
+        <h2>Bienvenidos a mi mundo digital</h2>
+        <p>Soy [Tu Nombre], una artista digital apasionada por crear piezas únicas que fusionan creatividad y tecnología. Aquí podrás encontrar algunos de mis trabajos más recientes y contactarme para colaborar en tus proyectos creativos.</p>
+    </div>
+</section>
+
+<section class="gallery" id="portfolio">
+    <div class="container">
+        <h2>Mi Portafolio</h2>
+        <!-- Reemplaza estas imágenes con las tuyas -->
+        <img src="arte1.jpg" alt="Arte digital 1">
+        <img src="arte2.jpg" alt="Arte digital 2">
+        <img src="arte3.jpg" alt="Arte digital 3">
+        <img src="arte4.jpg" alt="Arte digital 4">
+        <img src="arte5.jpg" alt="Arte digital 5">
+        <img src="arte6.jpg" alt="Arte digital 6">
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contáctame</h2>
+        <p>¿Te interesa trabajar conmigo? Rellena el siguiente formulario y te responderé lo antes posible.</p>
+        <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    <p>Sígueme en: <a href="https://instagram.com" style="color: #ff6b6b;">Instagram</a> | <a href="https://behance.net" style="color: #ff6b6b;">Behance</a></p>
+</footer>
+
+</body>
+</html>
+
